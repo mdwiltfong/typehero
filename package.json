@@ -28,7 +28,8 @@
     "test:e2e:ui": "turbo test:e2e:ui",
     "test:e2e:inspector": "turbo test:e2e:inspector",
     "tunnel": "cloudflared tunnel --url http://localhost:3000",
-    "typecheck": "turbo typecheck --continue"
+    "typecheck": "turbo typecheck --continue",
+    "checks:ignoredtests": "tsx ./tooling/scripts/ignoreTestsReport.ts"
   },
   "devDependencies": {
     "ajv": "^8.12.0",
